@@ -1,7 +1,29 @@
-/* Important things to remember */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* Important things to remember */
+/*Mobile up to 576px, no lorem ipsum */
 
 /* This is Top Banner Section with Nav Bar */
+
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+
+}
+
 .container{
 
 }
@@ -48,4 +70,9 @@
 
 .card {
     
+}
+
+/*training*/
+.trainings{
+
 }
