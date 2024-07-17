@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 
 /* Important things to remember */
 /*Mobile up to 576px, no lorem ipsum */
@@ -6,15 +7,6 @@
 /* This is Top Banner Section with Nav Bar */
 
 
-
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
 
 body{
     font-family: "Inter", sans-serif;
@@ -24,55 +16,128 @@ body{
 
 }
 
-.container{
-
-}
-
-.topbarlogo{
-
-}
-
-.topnavbar {
-
-}
-
-.hero{
-
-}
-.topherotext{
-
-}
-
-.bannerbuttons{
-
-}
-.joinbtn{
-
-}
-
-.downloadapp{
-
-}
-
-/*change habits section */
-
-.changehabits{
-
-}
-
-.habitttl{
-
-}
-
-.habitpara{
-
-}
-
-.card {
+header {
+    background-color: #2d2d2d;
+    padding: 20px 20px;
     
 }
 
-/*training*/
-.trainings{
+header .topbarlogo {
+    color: #f45d22;
+    font-size: 24px;
+    display: inline-block;
 
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+
+header nav ul li a:hover{
+    background-color: #f45d22;
+    border-radius: 4px;
+}
+
+header nav ul li a.home{
+    background-color: #f45d22;
+    color: #fff;
+    border-radius: 5%;
+}
+.hero{
+ padding: 100px 0;
+ text-align:left;
+ 
+}
+
+.hero h1 {
+    font-size: 78px;
+    font-weight: 900;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #b0b0b0;
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.cursive {
+    font-family: "Fasthand", cursive;
+    display: inline-block;
+}
+
+.hero .bannerbuttons {
+    display: flex;
+    gap: 20px;
+}
+
+.bannerbuttons{
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.joinbtn {
+    background-color: #f45d22;
+    color: #fff;
+}
+
+.downloadapp{
+    background-color: #555;
+    color: #fff;
+}
+
+.hero .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerimg {
+    max-width: 100%;
+    margin-left: 0;
+    width: 100%;
+}
+
+.cardbanner {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: #444;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px
+    font-size 16px;
 }
