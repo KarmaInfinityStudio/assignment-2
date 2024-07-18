@@ -200,5 +200,40 @@ header nav ul li a.home{
     border-radius: 10px;
 }
 
+/* Training Section */
 
+.trainings{
+    padding: 60px 0;
+    text-align: center;
+}
+.trainings h2  {
+    color: #fff;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900px;
+    margin-bottom: 20px;
+}
+
+.trainings p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.training-cards {
+    display: grid;
+    grid-template-columns: 323px 539px 388px;
+    grid-template-rows: repeat(2,auto);
+    gap: 20px;
+    justify-content: center;
+}
+
+.training-cards .card{
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
 
