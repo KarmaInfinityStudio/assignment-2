@@ -245,61 +245,61 @@ header nav ul li a.home{
 
 /*bmi calculator */
 
-.topbmi{
+.topbmi {
     text-align: center;
     margin-bottom: 10px;
     color: white;
 }
 
-
 .bmi-calculator .container {
-    display: inline-block;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bmi-content {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.bmi-calculator .bmi-chart,
-.bmi-calculator .calculate-bmi {
+.bmi-chart, .calculate-bmi {
     background-color: #2d2d2d;
     padding: 20px;
     border-radius: 10px;
     flex: 1;
     min-width: 280px;
+    color: white;
 }
 
-.bmi-calculator h2 {
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.bmi-calculator table {
+.bmi-chart table {
     width: 100%;
     color: #fff;
     border-collapse: collapse;
 }
 
-.bmi-calculator table th,
-.bmi-calculator table td {
+.bmi-chart table th,
+.bmi-chart table td {
     padding: 10px;
     border: 1px solid #fff;
 }
 
-.bmi-calculator form {
+.calculate-bmi form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.bmi-calculator input,
-.bmi-calculator select,
-.bmi-calculator button {
+.calculate-bmi input,
+.calculate-bmi select,
+.calculate-bmi button {
     padding: 10px;
     border: none;
     border-radius: 5px;
 }
 
-.bmi-calculator button {
+.calculate-bmi button {
     background-color: #f45d22;
     color: #fff;
     cursor: pointer;
