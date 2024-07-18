@@ -237,3 +237,9 @@ header nav ul li a.home{
     position: relative;
 }
 
+.training-cards .card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
