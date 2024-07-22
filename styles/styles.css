@@ -99,11 +99,17 @@ header nav ul li a.home {
 }
 
 .bannerbuttons {
-    padding: 16px 40px 16px 40px;
+    padding: 16px 40px;
     font-size: 16px;
-    border: none;
+    border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    justify-items: center;
 
 }
 
@@ -130,6 +136,7 @@ header nav ul li a.home {
     max-width: 100%;
     margin-left: 0;
     width: 100%;
+    position: relative;
 }
 
 .cardbanner {
@@ -139,8 +146,16 @@ header nav ul li a.home {
     background-color: #444;
     padding: 10px 20px;
     text-align: center;
-    border-radius: 5px font-size 16px;
+    border-radius: 5px;
+    font-size: 16px;
     display: block;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 150px;
+    overflow: auto;
+    
 }
 
 /*habits section */
@@ -447,4 +462,45 @@ footer .container {
     margin-top: 20px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
+}
+
+/*responsive max width 576px */
+
+@media (max width:576px) {
+   .topbarlogo {
+    float: none;
+    text-align: center;
+    margin-bottom: 10px;
+   }
+
+   .topnavbar {
+    float: none;
+    text-align: center;
+    width: 100%;
+   }
+
+   .topnavbar ul{
+    display: block;
+    padding:0;
+   }
+
+   .topnavbar ul li {
+    display: block;
+    margin:10px 0;
+   }
+
+   .topnavbar ul li a {
+    display: block;
+    padding: 10px;
+   }
+
+   .bmi-calculator{
+    flex-direction: column;
+   }
+
+   .footer-logo, .footer-nav, .footer-social {
+    width: 100%;
+    float: none;
+    text-align: center;
+   }
 }
